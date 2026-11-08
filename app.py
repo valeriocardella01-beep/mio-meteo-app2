@@ -31,7 +31,7 @@ if citta:
                 descrizione = current["lang_it"][0]["value"]
                 
                 orario_corrente = datetime.now().hour
-                fasce_orarie = data["weather"][0["hourly"] # N.B. Qui useremo la sintassi corretta [0]["hourly"]
+                fasce_orarie = data["weather"][0]["hourly"] # N.B. Qui useremo la sintassi corretta [0]["hourly"]
                 fasce_orarie = data["weather"][0]["hourly"]
                 
                 tendenza_pioggia = "Nessuna pioggia significativa prevista nelle prossime ore."
